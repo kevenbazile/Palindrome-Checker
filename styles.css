@@ -1,0 +1,95 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+}
+
+/* Logo Styling */
+.freecodecamp-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Palindrome Section Styling */
+.palindrome-div {
+  margin-bottom: 20px;
+}
+
+.palindrome-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.palindrome-btn {
+  padding: 10px 20px;
+  background-color: #0052cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.palindrome-btn:hover {
+  background-color: #0044a3;
+}
+
+.results-div {
+  margin-top: 20px;
+}
+
+.results-div.hidden {
+  display: none;
+}
+
+.palindrome-definition-div {
+  margin-top: 20px;
+}
+
+.palindrome-definition {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.palindrome-definition span {
+  font-size: 24px;
+}
+
+.palindrome-definition dfn {
+  font-weight: bold;
+  font-style: italic;
+}
